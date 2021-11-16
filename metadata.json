@@ -1,0 +1,15 @@
+{
+    "name": "Geolonia OSM POI",
+    "version": "3.0",
+    "description": "Tiles containing only POI and node labels, generated from OpenStreetMap data.",
+    "minzoom": "10",
+    "maxzoom": "10",
+    "bounds": "131.769819,32.229585,135.179380,34.651510",
+    "json": "{\"vector_layers\":[{\"id\":\"poi\",\"fields\":{\"class\":\"String\",\"name\":\"String\",\"name:en\":\"String\",\"name:ja\":\"String\",\"osm_id\":\"String\",\"rank\":\"Number\",\"subclass\":\"String\",\"wikidata\":\"String\"},\"minzoom\":10,\"maxzoom\":10}]}",
+    "tilejson": "2.0.0",
+    "scheme": "xyz",
+    "type": "baselayer",
+    "format": "pbf",
+    "attribution": "<a href=\"https://geolonia.com/credit/\" target=\"_blank\">&copy; Geolonia</a> | <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap</a>",
+    "tiles": "[\"https://tileserver.geolonia.com/poi/{z}/{x}/{y}.pbf\"]"
+}
